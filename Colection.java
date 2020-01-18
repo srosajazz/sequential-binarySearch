@@ -19,6 +19,8 @@ public class Colection {
 
         while (start < end) {
             middle = (start + end) / 2;
+            // debbug
+            // System.out.println("DEBBUG - S:" + start + " E:" + end + " M:" + middle);
             if (value == values[middle]) {
                 return middle;
             } else {
